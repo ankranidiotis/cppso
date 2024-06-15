@@ -6,7 +6,7 @@
     <Contributor>Athanasios N. Kranidiotis</Contributor>
     <Date day="20" month="05" year="2024"/>
     <SolutionMethod>A</SolutionMethod>
-    <ObjectiveValue objective="7"/>
+    <ObjectiveValue infeasibility="0" objective="7"/>
     <LowerBound objective="7"/>
     <Remarks>GA1: 7</Remarks>
   </MetaData>

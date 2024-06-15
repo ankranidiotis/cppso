@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Solution>
   <MetaData>
-    <SolutionName>Late 4 Solution.xml</SolutionName>
-    <InstanceName>Late 4.xml</InstanceName>
+    <SolutionName>Late 4 Solution</SolutionName>
+    <InstanceName>Late 4</InstanceName>
     <Contributor>Athanasios N. Kranidiotis</Contributor>
     <Date day="11" month="05" year="2024"/>
     <SolutionMethod>A</SolutionMethod>
+    <ObjectiveValue infeasibility="0" objective="0"/>
   </MetaData>
   <Games>
     <ScheduledMatch home="0" away="1" slot="13"/>
