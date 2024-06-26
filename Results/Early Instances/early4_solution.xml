@@ -6,7 +6,7 @@
     <Contributor>Athanasios N. Kranidiotis</Contributor>
     <Date day="15" month="06" year="2024"/>
     <SolutionMethod>A</SolutionMethod>
-    <ObjectiveValue objective="542"/>
+    <ObjectiveValue infeasibility="0" objective="542"/>
     <Remarks>
         CA1: 27;
         CA2: 365;
