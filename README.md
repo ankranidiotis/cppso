@@ -41,6 +41,7 @@ Currently, CP-PSO have been tested successfully on the following instances:
 | Middle 9| (0, 0)|(0, 415)|(0, 415)|(0, 1015)|(0, 640)|(0, 2185)|
 | Middle 11| (0, 345)|(0, 2177)|(0, 2177)|(0, 2956)|(0, 2696)|(0, 3638)|
 | Middle 12| (0, 1)|(0, 597)|(0, 597)|(0, 1596)|(0, 950)|(0, 3291)|
+| Middle 13| (0, 0)|(0, 211)|(0, 211)|(0, 780)|(0, 362)|(0, 4715)|
 | Middle 14| (0, 0)|(0, 1140)|(0, 1140)|(0, 1619)|(0, 1172)|(0, 2889)|
 | Late 1|(0, 1103)|(0, 1919)|(0, 1919)|(0, 2234)|(0, 2021)|(0, 3115)|
 | Late 3|(0, 416)|(0, 2369)|(0, 2369)|(0, 3004)|(0, 2457)|(0, 2833)|
@@ -54,3 +55,6 @@ Currently, CP-PSO have been tested successfully on the following instances:
 | Late 13|(0, 7)|(0, 1813)|(0, 1813)|(0, 3576)|(0, 1862)|(0, 7810)|
 | Late 14|(0, 7)|(0, 1140)|(0, 1140)|(0, 1650)|(0, 1202)|(0, 2514)|
 | Late 15|(0, 0)|(0, 0)|(0, 0)|(0, 80)|(0, 60)|(0, 1280)|
+
+
+Solutions have been derived by running CP-PSO algorithm at workstations with very low performance (max 8 vCPU) and limited time. Compared to other researchers' available computational power (60 - 64 vCPU), our solutions can certainly get improved on a faster machine. 
