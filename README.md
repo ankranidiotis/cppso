@@ -2,17 +2,17 @@
 
 CP-PSO is a hybrid algorithm developed by Athanasios N. Kranidiotis for the purpose of a Master Sc. Thesis with the title "Effective Solution of the Sports Timetabling Problem Using Computational Intelligence Particle Swarm Optimization (PSO) Algorithms". CP-PSO combines the power of PSO with the flexibility and effectiveness of Google OR-Tools, CP-SAT. 
 
-### Thesis
+## Thesis
 A copy of the thesis can be found here [link will be added in the future].
 
-### Repository
+## Repository
 The purpose of this repository is to publish the results of testing CP-PSO on ITC2021 problem instances. Those instances are listed into four dinstict categories:
 - Test instances (Benchmarks)
 - Early instances
 - Middle instances
 - Late instances
 
-### Benchmarks
+## Benchmarks
 CP-PSO algorithm passed successfully the benchmark tests shown in the table below:
 
 | Instance | Best LB | Best UB | Best known ITC2021 solution | CP-PSO Result |
@@ -26,7 +26,7 @@ CP-PSO algorithm passed successfully the benchmark tests shown in the table belo
 
 This means that CP-PSO algorithm is working properly and efficiently. 
 
-### Experimental Results
+## Experimental Results
 The objectives derived after executing CP-PSO algorithm on ITC2021 instances are shown below:
 
 | Instance | Best LB | Best UB | Best known ITC2021 solution | Dimitsas et al. (2022) objective | Rosati et al. (2022) objective|CP-PSO objective |
@@ -77,5 +77,14 @@ The objectives derived after executing CP-PSO algorithm on ITC2021 instances are
 | Late 14|(0, 7)|(0, 1140)|(0, 1140)|(0, 1650)|(0, 1202)|(0, 1966)|
 | Late 15|(0, 0)|(0, 0)|(0, 0)|(0, 80)|(0, 60)|(0, 1280)|
 
+## Conclusion
 
-Objectives were produced by running CP-PSO algorithm at slow machines (max 8 vCPU) at limited wall time. Compared to other researchers' available computational power (64 vCPU), our solutions can certainly be improved on a faster machine. 
+CP-PSO achieved to find a feasible solution on 38 of 45 instances. Compared to other algoriths, here are the results:
+
+| No. | Algorithm | Solutions found | Success (%)|
+|:---:|:---|:---:|:---:|
+|1| Rosati et al. (2022) | 44 | 97.8%|
+|2| CP-PSO| 38 | 84.4%|
+|3| Dimitsas et al. (2022) | 37 | 82.2%|
+
+The quality of solutions found by CP-PSO cannot be compared with other researchers' work objectively, as CP-PSO ran at a slow home PC (8 vCPU, 16GB RAM, Ubuntu 24.4 OS) for limited wall time. The other researchers used very fast workstations (64 vCPU, 64 GB RAM) instead. Thus, the quality of our solution can significaly be improved if a faster machine is recruited. 
