@@ -6,8 +6,7 @@ CP-PSO is a hybrid algorithm developed by Athanasios N. Kranidiotis for the purp
 A copy of the thesis can be found here [link will be added in the future].
 
 ## Repository
-The purpose of this repository is to publish the results of testing CP-PSO on ITC2021 problem instances. Those instances are listed into four dinstict categories:
-- Test instances (Benchmarks)
+The purpose of this repository is to publish the results of testing CP-PSO on [ITC2021 problem instances](https://robinxval.ugent.be/ITC2021/instances.php). Those instances are listed into three categories:
 - Early instances
 - Middle instances
 - Late instances
@@ -23,11 +22,11 @@ CP-PSO algorithm passed successfully the benchmark tests shown in the table belo
 | Test 4 |(0, 4535) | (0, 4535) | (0, 4535) |  (0, 4535)|
 | Test 5| (0, 2)| (0, 2)|(0, 2)| (0, 2)|
 
-
 This means that CP-PSO algorithm is working properly and efficiently. 
 
 ## Experimental Results
-The objectives derived after executing CP-PSO algorithm on ITC2021 instances are shown below:
+The objectives derived by executing CP-PSO algorithm on [ITC2021 problem instances](https://robinxval.ugent.be/ITC2021/instances.php) are shown below.
+All results have been verified by [ITC2021 Solution Validator](https://robinxval.ugent.be/ITC2021/validator.php).
 
 | Instance | Best LB | Best UB | Best known ITC2021 solution | Dimitsas et al. (2022) objective | Rosati et al. (2022) objective|CP-PSO objective |
 |:----------:|:---------:|:--------------:|:-----------------:|:-------------------:|:---------------:|:---------------:|
