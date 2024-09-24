@@ -3,7 +3,7 @@
 CP-PSO is a hybrid algorithm developed by Athanasios N. Kranidiotis for the purpose of a Master Sc. Thesis with the title "Effective Solution of the Sports Timetabling Problem Using Computational Intelligence Particle Swarm Optimization (PSO) Algorithms". CP-PSO combines the power of PSO with the flexibility and effectiveness of Google OR-Tools, CP-SAT. 
 
 ## Thesis
-A copy of the thesis can be found here[https://apothesis.eap.gr/archive/item/210061?lang=el].
+A copy of the thesis can be found [here](https://apothesis.eap.gr/archive/item/210061?lang=el).
 
 ## Repository
 The purpose of this repository is to publish the results of testing CP-PSO on [ITC2021 problem instances](https://robinxval.ugent.be/ITC2021/instances.php). Those instances are listed into three categories:
